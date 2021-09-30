@@ -12,4 +12,4 @@ for allInstances as address, rc {
     }
 }
 
-main = rule { length(result) is not  0 }
+main = rule { length(result) is 0 }
