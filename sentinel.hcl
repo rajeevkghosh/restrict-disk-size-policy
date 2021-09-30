@@ -12,5 +12,5 @@ module "tfplan-functions" {
 
 policy "restrict_disk_size" {
     source = "./restrict_disk_size.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
